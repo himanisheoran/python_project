@@ -1,0 +1,21 @@
+# CS PROJECT
+
+### TOPIC
+
+AIRLINE RESERVATION SYSTEM
+
+### AUTHORS
+
+- MUKUL SHEORAN
+- SYED AYAN AWAAL
+
+---
+
+### TECHNOLOGIES USED
+
+- PYTHON
+- MYSQL DATABASE
+
+<br>
+
+MADE BY [@sujaldev](https://github.com/sujaldev) 
