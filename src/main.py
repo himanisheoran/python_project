@@ -1,4 +1,7 @@
 from account_handler import create_account, delete_account
+from flight_manager import (
+    search_flights
+)
 
 
 def menu():
@@ -17,7 +20,7 @@ def menu():
 
         # SEARCH FLIGHTS
         if choice == "1":
-            pass
+            search_flights()
 
         # CREATE ACCOUNT
         elif choice == "2":

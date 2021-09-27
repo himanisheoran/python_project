@@ -34,7 +34,7 @@ def __get_user_data():
     return data
 
 
-def __account_exists():
+def account_exists():
     try:
         open("account.dat").close()
         return True
@@ -43,7 +43,7 @@ def __account_exists():
 
 
 def create_account():
-    if __account_exists():
+    if account_exists():
         print("Account already exists! Delete current account to create new.")
         return
 
