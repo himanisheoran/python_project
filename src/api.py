@@ -1,7 +1,7 @@
 from urllib.parse import quote_plus as url_encode
 import requests
 
-API_ENDPOINT = "HTTPS://FLY-SUJAL.HEROKUAPP.COM/?oci={}&oco={}&dci={}&dco={}&dd={}"
+API_ENDPOINT = "HTTPS://FLIGHT.SUJAL.TECH/?oci={}&oco={}&dci={}&dco={}&dd={}"
 
 
 def __generate_query_url(oci, oco, dci, dco, dd):
@@ -16,7 +16,6 @@ def __generate_query_url(oci, oco, dci, dco, dd):
 
 def __fetch_query(oci, oco, dci, dco, dd):
     url = __generate_query_url(oci, oco, dci, dco, dd)
-    print(url)
     return requests.get(url).content.decode()
 
 
